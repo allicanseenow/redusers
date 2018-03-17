@@ -1,0 +1,26 @@
+{
+  "name": "redusers",
+  "version": "1.0.0",
+  "description": "Redis APP",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allicanseenow/redusers.git"
+  },
+  "author": "Amakawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allicanseenow/redusers/issues"
+  },
+  "homepage": "https://github.com/allicanseenow/redusers#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "redis": "^2.8.0"
+  }
+}
